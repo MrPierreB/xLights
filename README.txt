@@ -29,7 +29,9 @@ XLIGHTS/NUTCRACKER RELEASE NOTES
                                 previously treated as the "no channel" sentinel), and
                                 null-check the node in the PixelBufferClass::GetColors
                                 parallel branch to match the serial branch
-    -enh (PB)                   Value curve Exponential, Logarithmic, and Parabolic types now support Start/End.
+    -enh (PB)                   Value curve Exponential, Logarithmic, and Parabolic types now support Start/End
+                                    Level (P3/P4) to constrain the output range. Sliders show field units for
+                                    intuitive entry. Existing sequences unaffected.
     -enh (scott)                Add "Show Names" and "Show Start Channel" checkboxes to Layout tab to display model names
                                 and controller/port or start channel in the layout preview
     -enh (derwin12)             Picture effect auto-sets scaling to "Scale To Fit" when appropriate
